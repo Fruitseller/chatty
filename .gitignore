@@ -1,1 +1,8 @@
 .vagrant/
+composer.lock
+
+
+vendor/*
+
+!vendor/fruitsailor/*
+!vendor/fruitsailor/
