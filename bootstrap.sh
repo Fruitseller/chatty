@@ -6,6 +6,8 @@ apt-get update > /dev/null
 apt-get install -y apache2 php5 libapache2-mod-php5 > /dev/null
 rm -rf /var/www/html
 ln -sf /vagrant /var/www/html
+sudo a2enmod rewrite
+sudo service apache2 restart
 
 # PHP5
 echo "Installing PHP"
