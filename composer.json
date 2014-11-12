@@ -1,4 +1,11 @@
 {
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Fruitseller/framework"
+		}
+	],
+
 	"autoload": {
 		"psr-4": {
 			"framework\\": "vendor/fruitsailor/framework/"
@@ -7,5 +14,9 @@
 
 	"require-dev": {
 		"phpunit/phpunit": "4.1.*"
+	},
+
+	"require": {
+		"fruitsailor/framework": "dev-master"
 	}
 }
