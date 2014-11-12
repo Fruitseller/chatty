@@ -17,6 +17,7 @@
 	},
 
 	"require": {
-		"fruitsailor/framework": "dev-master"
+		"fruitsailor/framework": "dev-master",
+		"filp/whoops": "~1.1"
 	}
 }
